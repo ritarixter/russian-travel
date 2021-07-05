@@ -8,7 +8,19 @@
  position: relative;
  max-width: 360px;
  margin: 0 auto;
+ padding-bottom: 245px;
 
+}
+@media screen and (max-width:1279px){
+  .cover__subtitle{
+    padding-bottom: 195px;
+  }
+}
+
+@media screen and (max-width:1023px){
+  .cover__subtitle{
+    padding-bottom: 115px;
+  }
 }
 
 @media screen and (max-width:767px){
@@ -17,5 +29,8 @@
     line-height: 16px;
     padding-right: 16px;
     padding-left: 16px;
+    padding-bottom: 33px;
   }
 }
+
+

@@ -1,0 +1,31 @@
+.cover__link{
+  color: #fff;
+  text-decoration: none;
+  background: url(/../images/cover__background.jpg) no-repeat center;
+  background-size: 100%;
+  box-shadow: 0 4px 4px rgba(0,0,0,.25);
+  position: relative;
+  display: block;
+}
+
+.cover__link::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 44, 47);
+  opacity: .3;
+  transition: opacity .2s ease-in-out;
+}
+
+.cover__link:hover::before{
+  opacity: .8;
+}
+
+@media screen and (max-width:1279px){
+  .cover__link{
+    box-shadow: none;
+  }
+}
