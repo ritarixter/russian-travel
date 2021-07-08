@@ -5,7 +5,11 @@
   background-size: 100%;
   box-shadow: 0 4px 4px rgba(0,0,0,.25);
   position: relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  min-height: 740px;
+  align-items: center;
+  justify-content: center;
 }
 
 .cover__link::before{
@@ -13,9 +17,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(42, 44, 47);
+  right: 0;
+  bottom: 0;
+  background-color: rgb(42, 44, 47);
   opacity: .3;
   transition: opacity .2s ease-in-out;
 }
@@ -27,5 +31,18 @@
 @media screen and (max-width:1279px){
   .cover__link{
     box-shadow: none;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width:1023px){
+  .cover__link{
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .cover__link{
+    min-height: 200px;
   }
 }

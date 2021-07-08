@@ -2,8 +2,10 @@
   margin: 0;
   font-size: 12px;
   line-height: 1;
-  color: #AAA;
-  text-transform: uppercase;
+  color: #aaa;
+  letter-spacing: 2px;
   font-weight: 400;
   margin-bottom: 12px;
+  text-transform: uppercase;
+  display: block;
 }

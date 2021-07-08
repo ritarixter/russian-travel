@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width:1023px) {
-  .lead.page__container_size_min{
+  .lead{
     padding-right: 0;
     padding-left: 0;
   }

@@ -2,34 +2,17 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  margin: 0;
   padding: 0;
   z-index: 2;
- position: relative;
- max-width: 360px;
- margin: 0 auto;
- padding-bottom: 245px;
-
-}
-@media screen and (max-width:1279px){
-  .cover__subtitle{
-    padding-bottom: 195px;
-  }
-}
-
-@media screen and (max-width:1023px){
-  .cover__subtitle{
-    padding-bottom: 115px;
-  }
+  position: relative;
+  max-width: 360px;
+  margin: 0;
 }
 
 @media screen and (max-width:767px){
   .cover__subtitle{
     font-size: 14px;
     line-height: 16px;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 33px;
   }
 }
 

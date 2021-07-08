@@ -11,7 +11,7 @@
 }
 
 .header__lang-link:hover{
-  color: rgba(255, 255, 255, .8)
+  color: rgba(255, 255, 255, .8);
 }
 
 @media screen and (max-width:767px) {
